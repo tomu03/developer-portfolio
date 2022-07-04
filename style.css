@@ -33,11 +33,11 @@ section {
     border-radius: 5px;
 }
 .top-side{
-    background-image: url(images/myinsta1.jpg );
+    background-image: url(images/top-banner.png );
     background-repeat: no-repeat;
 }
 .second-on{
-    background-image: url(images/myinsta3.jpg);
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: right; 
 }
