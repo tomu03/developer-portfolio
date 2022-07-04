@@ -11,8 +11,7 @@ h1 {
 .bule {
     color: aquamarine;
 }
-
-section {
+.flexible{
     display: flex;
     margin-bottom: 120px;
 }
