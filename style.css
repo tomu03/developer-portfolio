@@ -14,6 +14,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 120px;
 }
 
 .left {
@@ -34,4 +35,9 @@ section {
 .top-side{
     background-image: url(images/myinsta1.jpg );
     background-repeat: no-repeat;
+}
+.second-on{
+    background-image: url(images/myinsta3.jpg);
+    background-repeat: no-repeat;
+    background-position: right; 
 }
