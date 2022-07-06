@@ -18,41 +18,45 @@ h2 {
 
 .flexible {
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 .left {
     width: 50%;
     padding-left: 5%;
+}
 
+.left img {
+    width: 50%;
+}
+
+.button-text-color {
+    color: white;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, red, yellow);
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 25px;
 }
 
 .box-color {
     width: 50%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 20px;
-    border-radius: 6%;
-    box-shadow: 10px 10px 5px gray;
-    
+    padding-left: 10px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 30px gray;
 }
-#full{
+
+#full {
     border-left: 5px solid blue;
 }
 
-#baby{
-    border-left: 5px solid black;
-}
-
-.left img {
-    width: 60%;
-}
-
-.link-button {
-    text-decoration: none;
-    background-image: linear-gradient(red, yellow);
-    padding: 10px 40px;
-    border-radius: 5px;
+#baby {
+    border-left: 5px solid tomato;
 }
 
 .top-side {
@@ -67,11 +71,11 @@ h2 {
 }
 
 .experiences {
-
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-footer{
+
+footer p{
     text-align: center;
 }
